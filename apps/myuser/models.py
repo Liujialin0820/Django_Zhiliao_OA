@@ -9,10 +9,9 @@ from django.contrib.auth.hashers import (
 )
 from shortuuidfield import ShortUUIDField
 
+
 # Create your models here.
 # 重写user模型
-
-
 class UserStatusChoice(models.IntegerChoices):
     ACTIVED = 1
     UNACTIVE = 2
@@ -82,6 +81,8 @@ class MyUser(AbstractBaseUser, PermissionsMixin):
     )
     date_joined = models.DateTimeField(auto_now_add=True)
 
+    department = models.ForeignKey("MyDepartment", on_delete=models.SET_NULL, null=True)
+
     objects = MyUserManager()
 
     EMAIL_FIELD = "email"
@@ -104,3 +105,20 @@ class MyUser(AbstractBaseUser, PermissionsMixin):
     def get_short_name(self):
         """Return the short name for the user."""
         return self.first_name
+
+
+class MyDepartment(models.Model):
+    name = models.CharField(max_length=100)
+    intro = models.CharField(max_length=300)
+    leader = models.OneToOneField(
+        MyUser,
+        null=True,
+        on_delete=models.SET_NULL,
+        related_name="department_leader",  # 自定义反向名称
+    )
+    manager = models.ForeignKey(
+        MyUser,
+        null=True,
+        on_delete=models.SET_NULL,
+        related_name="department_manager",  # 自定义反向名称
+    )
