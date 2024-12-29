@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from apps.myuser.models import UserStatusChoice
+from apps.myuser.models import MyDepartment, UserStatusChoice
 from .models import MyUser
 
 
@@ -29,3 +29,17 @@ class LoginSerializer(serializers.Serializer):
 
         # 验证成功就返回attrs
         return attrs
+
+
+class DepartmentSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = MyDepartment
+        fields = "__all__"
+
+
+class UserSerializer(serializers.ModelSerializer):
+    department = DepartmentSerializer()
+
+    class Meta:
+        model = MyUser
+        exclude = ["password", "groups", "user_permissions"]

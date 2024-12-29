@@ -49,6 +49,14 @@
         "documentation": {}
     },
     {
+        "label": "MyDepartment",
+        "importPath": "apps.myuser.models",
+        "description": "apps.myuser.models",
+        "isExtraImport": true,
+        "detail": "apps.myuser.models",
+        "documentation": {}
+    },
+    {
         "label": "UserStatusChoice",
         "importPath": "apps.myuser.models",
         "description": "apps.myuser.models",
@@ -341,6 +349,14 @@
         "documentation": {}
     },
     {
+        "label": "UserSerializer",
+        "importPath": "apps.myuser.serializers",
+        "description": "apps.myuser.serializers",
+        "isExtraImport": true,
+        "detail": "apps.myuser.serializers",
+        "documentation": {}
+    },
+    {
         "label": "generate_jwt",
         "importPath": "apps.myuser.authentications",
         "description": "apps.myuser.authentications",
@@ -508,6 +524,24 @@
         "documentation": {}
     },
     {
+        "label": "DepartmentSerializer",
+        "kind": 6,
+        "importPath": "apps.myuser.serializers",
+        "description": "apps.myuser.serializers",
+        "peekOfCode": "class DepartmentSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = MyDepartment\n        fields = \"__all__\"\nclass UserSerializer(serializers.ModelSerializer):\n    department = DepartmentSerializer()\n    class Meta:\n        model = MyUser\n        exclude = [\"password\", \"groups\", \"user_permissions\"]",
+        "detail": "apps.myuser.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "UserSerializer",
+        "kind": 6,
+        "importPath": "apps.myuser.serializers",
+        "description": "apps.myuser.serializers",
+        "peekOfCode": "class UserSerializer(serializers.ModelSerializer):\n    department = DepartmentSerializer()\n    class Meta:\n        model = MyUser\n        exclude = [\"password\", \"groups\", \"user_permissions\"]",
+        "detail": "apps.myuser.serializers",
+        "documentation": {}
+    },
+    {
         "label": "app_name",
         "kind": 5,
         "importPath": "apps.myuser.urls",
@@ -530,7 +564,7 @@
         "kind": 6,
         "importPath": "apps.myuser.views",
         "description": "apps.myuser.views",
-        "peekOfCode": "class LoginView(APIView):\n    def post(self, request):\n        # 1. 验证数据\n        serializer = LoginSerializer(data=request.data)\n        if serializer.is_valid():\n            user = serializer.validated_data.get(\"user\")\n            user.last_login = datetime.now()\n            user.save()\n            token = generate_jwt(user)\n            return Response({\"token\": token})",
+        "peekOfCode": "class LoginView(APIView):\n    def post(self, request):\n        # 1. 验证数据\n        serializer = LoginSerializer(data=request.data)\n        if serializer.is_valid():\n            user = serializer.validated_data.get(\"user\")\n            user.last_login = datetime.now()\n            user.save()\n            token = generate_jwt(user)\n            return Response(",
         "detail": "apps.myuser.views",
         "documentation": {}
     },
