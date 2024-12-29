@@ -1,0 +1,744 @@
+[
+    {
+        "label": "BaseCommand",
+        "importPath": "django.core.management.base",
+        "description": "django.core.management.base",
+        "isExtraImport": true,
+        "detail": "django.core.management.base",
+        "documentation": {}
+    },
+    {
+        "label": "BaseCommand",
+        "importPath": "django.core.management.base",
+        "description": "django.core.management.base",
+        "isExtraImport": true,
+        "detail": "django.core.management.base",
+        "documentation": {}
+    },
+    {
+        "label": "apps.myuser.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "apps.myuser.models",
+        "description": "apps.myuser.models",
+        "detail": "apps.myuser.models",
+        "documentation": {}
+    },
+    {
+        "label": "MyDepartment",
+        "importPath": "apps.myuser.models",
+        "description": "apps.myuser.models",
+        "isExtraImport": true,
+        "detail": "apps.myuser.models",
+        "documentation": {}
+    },
+    {
+        "label": "MyUser",
+        "importPath": "apps.myuser.models",
+        "description": "apps.myuser.models",
+        "isExtraImport": true,
+        "detail": "apps.myuser.models",
+        "documentation": {}
+    },
+    {
+        "label": "MyDepartment",
+        "importPath": "apps.myuser.models",
+        "description": "apps.myuser.models",
+        "isExtraImport": true,
+        "detail": "apps.myuser.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserStatusChoice",
+        "importPath": "apps.myuser.models",
+        "description": "apps.myuser.models",
+        "isExtraImport": true,
+        "detail": "apps.myuser.models",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "shortuuidfield.fields",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shortuuidfield.fields",
+        "description": "shortuuidfield.fields",
+        "detail": "shortuuidfield.fields",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "jwt",
+        "description": "jwt",
+        "detail": "jwt",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "BaseAuthentication",
+        "importPath": "rest_framework.authentication",
+        "description": "rest_framework.authentication",
+        "isExtraImport": true,
+        "detail": "rest_framework.authentication",
+        "documentation": {}
+    },
+    {
+        "label": "get_authorization_header",
+        "importPath": "rest_framework.authentication",
+        "description": "rest_framework.authentication",
+        "isExtraImport": true,
+        "detail": "rest_framework.authentication",
+        "documentation": {}
+    },
+    {
+        "label": "exceptions",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "ExpiredSignatureError",
+        "importPath": "jwt.exceptions",
+        "description": "jwt.exceptions",
+        "isExtraImport": true,
+        "detail": "jwt.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "AbstractBaseUser",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "PermissionsMixin",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "BaseUserManager",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "make_password",
+        "importPath": "django.contrib.auth.hashers",
+        "description": "django.contrib.auth.hashers",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.hashers",
+        "documentation": {}
+    },
+    {
+        "label": "ShortUUIDField",
+        "importPath": "shortuuidfield",
+        "description": "shortuuidfield",
+        "isExtraImport": true,
+        "detail": "shortuuidfield",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "LoginView",
+        "importPath": "apps.myuser.views",
+        "description": "apps.myuser.views",
+        "isExtraImport": true,
+        "detail": "apps.myuser.views",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "APIView",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "LoginSerializer",
+        "importPath": "apps.myuser.serializers",
+        "description": "apps.myuser.serializers",
+        "isExtraImport": true,
+        "detail": "apps.myuser.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "generate_jwt",
+        "importPath": "apps.myuser.authentications",
+        "description": "apps.myuser.authentications",
+        "isExtraImport": true,
+        "detail": "apps.myuser.authentications",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Command",
+        "kind": 6,
+        "importPath": "apps.myuser.management.commands.initdepartments",
+        "description": "apps.myuser.management.commands.initdepartments",
+        "peekOfCode": "class Command(BaseCommand):\n    def handle(self, *args, **options):\n        # 初始化部门数据\n        boarder = MyDepartment.objects.create(name='董事会', intro=\"董事会\")\n        developer = MyDepartment.objects.create(name='产品开发部', intro=\"产品设计，技术开发\")\n        operator = MyDepartment.objects.create(name='运营部', intro=\"客户运营，产品运营\")\n        saler = MyDepartment.objects.create(name='销售部', intro=\"销售产品\")\n        hr = MyDepartment.objects.create(name='人事部', intro=\"员工招聘，员工培训，员工考核\")\n        finance = MyDepartment.objects.create(name='财务部', intro=\"财务报表，财务审核\")\n        self.stdout.write('部门数据初始化成功！')",
+        "detail": "apps.myuser.management.commands.initdepartments",
+        "documentation": {}
+    },
+    {
+        "label": "Command",
+        "kind": 6,
+        "importPath": "apps.myuser.management.commands.inituser",
+        "description": "apps.myuser.management.commands.inituser",
+        "peekOfCode": "class Command(BaseCommand):\n    def handle(self, *args, **options):\n        boarder = MyDepartment.objects.get(name=\"董事会\")\n        developer = MyDepartment.objects.get(name=\"产品开发部\")\n        operator = MyDepartment.objects.get(name=\"运营部\")\n        saler = MyDepartment.objects.get(name=\"销售部\")\n        hr = MyDepartment.objects.get(name=\"人事部\")\n        finance = MyDepartment.objects.get(name=\"财务部\")\n        # 董事会的员工，都是superuser用户\n        # 1. 东东：属于董事会的leader",
+        "detail": "apps.myuser.management.commands.inituser",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "apps.myuser.migrations.0001_initial",
+        "description": "apps.myuser.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('auth', '0012_alter_user_first_name_max_length'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='MyUser',\n            fields=[\n                ('password', models.CharField(max_length=128, verbose_name='password')),",
+        "detail": "apps.myuser.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "apps.myuser.migrations.0002_mydepartment_myuser_department",
+        "description": "apps.myuser.migrations.0002_mydepartment_myuser_department",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('myuser', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='MyDepartment',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(max_length=100)),",
+        "detail": "apps.myuser.migrations.0002_mydepartment_myuser_department",
+        "documentation": {}
+    },
+    {
+        "label": "MyuserConfig",
+        "kind": 6,
+        "importPath": "apps.myuser.apps",
+        "description": "apps.myuser.apps",
+        "peekOfCode": "class MyuserConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'apps.myuser'",
+        "detail": "apps.myuser.apps",
+        "documentation": {}
+    },
+    {
+        "label": "UserTokenAuthentication",
+        "kind": 6,
+        "importPath": "apps.myuser.authentications",
+        "description": "apps.myuser.authentications",
+        "peekOfCode": "class UserTokenAuthentication(BaseAuthentication):\n    def authenticate(self, request):\n        # 这里的request：是rest_framework.request.Request对象\n        return request._request.user, request._request.auth\nclass JWTAuthentication(BaseAuthentication):\n    keyword = \"JWT\"\n    def authenticate(self, request):\n        auth = get_authorization_header(request).split()\n        if not auth or auth[0].lower() != self.keyword.lower().encode():\n            return None",
+        "detail": "apps.myuser.authentications",
+        "documentation": {}
+    },
+    {
+        "label": "JWTAuthentication",
+        "kind": 6,
+        "importPath": "apps.myuser.authentications",
+        "description": "apps.myuser.authentications",
+        "peekOfCode": "class JWTAuthentication(BaseAuthentication):\n    keyword = \"JWT\"\n    def authenticate(self, request):\n        auth = get_authorization_header(request).split()\n        if not auth or auth[0].lower() != self.keyword.lower().encode():\n            return None\n        if len(auth) == 1:\n            msg = \"不可用的JWT请求头!\"\n            raise exceptions.AuthenticationFailed(msg)\n        elif len(auth) > 2:",
+        "detail": "apps.myuser.authentications",
+        "documentation": {}
+    },
+    {
+        "label": "generate_jwt",
+        "kind": 2,
+        "importPath": "apps.myuser.authentications",
+        "description": "apps.myuser.authentications",
+        "peekOfCode": "def generate_jwt(user):\n    expire_time = time.time() + 60 * 60 * 24 * 7\n    return jwt.encode({\"userid\": user.pk, \"exp\": expire_time}, key=settings.SECRET_KEY)\nclass UserTokenAuthentication(BaseAuthentication):\n    def authenticate(self, request):\n        # 这里的request：是rest_framework.request.Request对象\n        return request._request.user, request._request.auth\nclass JWTAuthentication(BaseAuthentication):\n    keyword = \"JWT\"\n    def authenticate(self, request):",
+        "detail": "apps.myuser.authentications",
+        "documentation": {}
+    },
+    {
+        "label": "UserStatusChoice",
+        "kind": 6,
+        "importPath": "apps.myuser.models",
+        "description": "apps.myuser.models",
+        "peekOfCode": "class UserStatusChoice(models.IntegerChoices):\n    ACTIVED = 1\n    UNACTIVE = 2\n    LOCKED = 3\nclass MyUserManager(BaseUserManager):\n    use_in_migrations = True\n    def _create_user(self, username, email, password, **extra_fields):\n        \"\"\"\n        Create and save a user with the given username, email, and password.\n        \"\"\"",
+        "detail": "apps.myuser.models",
+        "documentation": {}
+    },
+    {
+        "label": "MyUserManager",
+        "kind": 6,
+        "importPath": "apps.myuser.models",
+        "description": "apps.myuser.models",
+        "peekOfCode": "class MyUserManager(BaseUserManager):\n    use_in_migrations = True\n    def _create_user(self, username, email, password, **extra_fields):\n        \"\"\"\n        Create and save a user with the given username, email, and password.\n        \"\"\"\n        if not username:\n            raise ValueError(\"The given username must be set\")\n        email = self.normalize_email(email)\n        user = self.model(username=username, email=email, **extra_fields)",
+        "detail": "apps.myuser.models",
+        "documentation": {}
+    },
+    {
+        "label": "MyUser",
+        "kind": 6,
+        "importPath": "apps.myuser.models",
+        "description": "apps.myuser.models",
+        "peekOfCode": "class MyUser(AbstractBaseUser, PermissionsMixin):\n    uid = ShortUUIDField(primary_key=True)\n    username = models.CharField(\n        (\"username\"),\n        max_length=150,\n        unique=False,\n    )\n    first_name = models.CharField((\"first name\"), max_length=150, blank=False)\n    last_name = models.CharField((\"last name\"), max_length=150, blank=True)\n    email = models.EmailField((\"email address\"), unique=True, blank=False)",
+        "detail": "apps.myuser.models",
+        "documentation": {}
+    },
+    {
+        "label": "MyDepartment",
+        "kind": 6,
+        "importPath": "apps.myuser.models",
+        "description": "apps.myuser.models",
+        "peekOfCode": "class MyDepartment(models.Model):\n    name = models.CharField(max_length=100)\n    intro = models.CharField(max_length=300)\n    leader = models.OneToOneField(\n        MyUser,\n        null=True,\n        on_delete=models.SET_NULL,\n        related_name=\"department_leader\",  # 自定义反向名称\n    )\n    manager = models.ForeignKey(",
+        "detail": "apps.myuser.models",
+        "documentation": {}
+    },
+    {
+        "label": "LoginSerializer",
+        "kind": 6,
+        "importPath": "apps.myuser.serializers",
+        "description": "apps.myuser.serializers",
+        "peekOfCode": "class LoginSerializer(serializers.Serializer):\n    email = serializers.EmailField(required=True)\n    password = serializers.CharField(max_length=20, min_length=6)\n    # 邮箱密码都在attrs\n    def validate(self, attrs):\n        email = attrs.get(\"email\")\n        password = attrs.get(\"password\")\n        if email and password:\n            # first 方法 有就返回第一个 没有就返回None\n            user = MyUser.objects.filter(email=email).first()",
+        "detail": "apps.myuser.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "apps.myuser.urls",
+        "description": "apps.myuser.urls",
+        "peekOfCode": "app_name = \"myuser\"\nurlpatterns = [\n    path(\"login/\", LoginView.as_view()),\n]",
+        "detail": "apps.myuser.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "apps.myuser.urls",
+        "description": "apps.myuser.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"login/\", LoginView.as_view()),\n]",
+        "detail": "apps.myuser.urls",
+        "documentation": {}
+    },
+    {
+        "label": "LoginView",
+        "kind": 6,
+        "importPath": "apps.myuser.views",
+        "description": "apps.myuser.views",
+        "peekOfCode": "class LoginView(APIView):\n    def post(self, request):\n        # 1. 验证数据\n        serializer = LoginSerializer(data=request.data)\n        if serializer.is_valid():\n            user = serializer.validated_data.get(\"user\")\n            user.last_login = datetime.now()\n            user.save()\n            token = generate_jwt(user)\n            return Response({\"token\": token})",
+        "detail": "apps.myuser.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "settings.asgi",
+        "description": "settings.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "settings.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "settings.settings",
+        "description": "settings.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = \"django-insecure-#o53^9*lxupc%$s*@nca*pc90*6ma7@vd)@l8=4+d!0+&8qyw8\"\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "settings.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "settings.settings",
+        "description": "settings.settings",
+        "peekOfCode": "SECRET_KEY = \"django-insecure-#o53^9*lxupc%$s*@nca*pc90*6ma7@vd)@l8=4+d!0+&8qyw8\"\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",",
+        "detail": "settings.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "settings.settings",
+        "description": "settings.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",",
+        "detail": "settings.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "settings.settings",
+        "description": "settings.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n    \"rest_framework\",",
+        "detail": "settings.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "settings.settings",
+        "description": "settings.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n    \"rest_framework\",\n    \"corsheaders\",\n    # 项目的app",
+        "detail": "settings.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "settings.settings",
+        "description": "settings.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    \"django.middleware.security.SecurityMiddleware\",\n    \"django.contrib.sessions.middleware.SessionMiddleware\",\n    \"corsheaders.middleware.CorsMiddleware\",\n    \"django.middleware.common.CommonMiddleware\",\n    # 'django.middleware.csrf.CsrfViewMiddleware',\n    \"django.contrib.auth.middleware.AuthenticationMiddleware\",\n    \"django.contrib.messages.middleware.MessageMiddleware\",\n    \"django.middleware.clickjacking.XFrameOptionsMiddleware\",\n]",
+        "detail": "settings.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "settings.settings",
+        "description": "settings.settings",
+        "peekOfCode": "ROOT_URLCONF = \"settings.urls\"\nTEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",\n        \"DIRS\": [],\n        \"APP_DIRS\": True,\n        \"OPTIONS\": {\n            \"context_processors\": [\n                \"django.template.context_processors.debug\",\n                \"django.template.context_processors.request\",",
+        "detail": "settings.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "settings.settings",
+        "description": "settings.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",\n        \"DIRS\": [],\n        \"APP_DIRS\": True,\n        \"OPTIONS\": {\n            \"context_processors\": [\n                \"django.template.context_processors.debug\",\n                \"django.template.context_processors.request\",\n                \"django.contrib.auth.context_processors.auth\",",
+        "detail": "settings.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "settings.settings",
+        "description": "settings.settings",
+        "peekOfCode": "WSGI_APPLICATION = \"settings.wsgi.application\"\n# Database\n# https://docs.djangoproject.com/en/5.1/ref/settings/#databases\nDATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.mysql\",\n        \"NAME\": \"zhiliaooa\",\n        \"HOST\": \"127.0.0.1\",\n        \"PORT\": \"3306\",\n        \"USER\": \"root\",",
+        "detail": "settings.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "settings.settings",
+        "description": "settings.settings",
+        "peekOfCode": "DATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.mysql\",\n        \"NAME\": \"zhiliaooa\",\n        \"HOST\": \"127.0.0.1\",\n        \"PORT\": \"3306\",\n        \"USER\": \"root\",\n        \"PASSWORD\": \"123456\",\n    }\n}",
+        "detail": "settings.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "settings.settings",
+        "description": "settings.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.UserAttributeSimilarityValidator\",\n    },\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.MinimumLengthValidator\",\n    },\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.CommonPasswordValidator\",\n    },",
+        "detail": "settings.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "settings.settings",
+        "description": "settings.settings",
+        "peekOfCode": "LANGUAGE_CODE = \"en-us\"\nTIME_ZONE = \"UTC\"\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "detail": "settings.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "settings.settings",
+        "description": "settings.settings",
+        "peekOfCode": "TIME_ZONE = \"UTC\"\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\n# https://pypi.org/project/django-cors-headers/",
+        "detail": "settings.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "settings.settings",
+        "description": "settings.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\n# https://pypi.org/project/django-cors-headers/\nCORS_ALLOW_ALL_ORIGINS = True",
+        "detail": "settings.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "settings.settings",
+        "description": "settings.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\n# https://pypi.org/project/django-cors-headers/\nCORS_ALLOW_ALL_ORIGINS = True\n# 覆盖自带的user模型",
+        "detail": "settings.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "settings.settings",
+        "description": "settings.settings",
+        "peekOfCode": "STATIC_URL = \"static/\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\n# https://pypi.org/project/django-cors-headers/\nCORS_ALLOW_ALL_ORIGINS = True\n# 覆盖自带的user模型\nAUTH_USER_MODEL = \"myuser.MyUser\"",
+        "detail": "settings.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "settings.settings",
+        "description": "settings.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"\n# https://pypi.org/project/django-cors-headers/\nCORS_ALLOW_ALL_ORIGINS = True\n# 覆盖自带的user模型\nAUTH_USER_MODEL = \"myuser.MyUser\"",
+        "detail": "settings.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOW_ALL_ORIGINS",
+        "kind": 5,
+        "importPath": "settings.settings",
+        "description": "settings.settings",
+        "peekOfCode": "CORS_ALLOW_ALL_ORIGINS = True\n# 覆盖自带的user模型\nAUTH_USER_MODEL = \"myuser.MyUser\"",
+        "detail": "settings.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_USER_MODEL",
+        "kind": 5,
+        "importPath": "settings.settings",
+        "description": "settings.settings",
+        "peekOfCode": "AUTH_USER_MODEL = \"myuser.MyUser\"",
+        "detail": "settings.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "settings.urls",
+        "description": "settings.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"admin/\", admin.site.urls),\n    path(\"auth/\", include(\"apps.myuser.urls\")),\n]",
+        "detail": "settings.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "settings.wsgi",
+        "description": "settings.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "settings.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'settings.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]
