@@ -7,6 +7,7 @@ from django.contrib.auth.models import (
 from django.contrib.auth.hashers import (
     make_password,
 )
+from shortuuidfield import ShortUUIDField
 
 # Create your models here.
 # 重写user模型
@@ -53,6 +54,7 @@ class MyUserManager(BaseUserManager):
 
 class MyUser(AbstractBaseUser, PermissionsMixin):
 
+    uid = ShortUUIDField(primary_key=True)
     username = models.CharField(
         ("username"),
         max_length=150,
