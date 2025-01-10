@@ -82,7 +82,7 @@ WSGI_APPLICATION = "settings.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.mysql",
-        "NAME": "zhiliaooa",
+        "NAME": "zhiliao_oa",
         "HOST": "127.0.0.1",
         "PORT": "3306",
         "USER": "root",

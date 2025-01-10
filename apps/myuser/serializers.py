@@ -4,7 +4,7 @@ from .models import MyUser
 
 
 class LoginSerializer(serializers.Serializer):
-    email = serializers.EmailField(required=True)
+    email = serializers.EmailField(required=True,error_messages={"required": "Please enter your email address."})
     password = serializers.CharField(max_length=20, min_length=6)
 
     # 邮箱密码都在attrs
@@ -16,16 +16,16 @@ class LoginSerializer(serializers.Serializer):
             # first 方法 有就返回第一个 没有就返回None
             user = MyUser.objects.filter(email=email).first()
             if not user:
-                raise serializers.ValidationError("邮箱不存在")
+                raise serializers.ValidationError("Email does not exist.")
             if not user.check_password(password):
-                raise serializers.ValidationError("密码错误")
+                raise serializers.ValidationError("Incorrect password")
             # 判断状态
             if user.status != UserStatusChoice.ACTIVED:
-                raise serializers.ValidationError("用户状态异常")
+                raise serializers.ValidationError("User status abnormal")
             attrs["user"] = user
 
         else:
-            raise serializers.ValidationError("请传入邮箱和密码!")
+            raise serializers.ValidationError("Please enter your email and password!")
 
         # 验证成功就返回attrs
         return attrs

@@ -52,7 +52,6 @@ class MyUserManager(BaseUserManager):
 
 
 class MyUser(AbstractBaseUser, PermissionsMixin):
-
     uid = ShortUUIDField(primary_key=True)
     username = models.CharField(
         ("username"),

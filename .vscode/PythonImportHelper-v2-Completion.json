@@ -229,6 +229,14 @@
         "documentation": {}
     },
     {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
         "label": "ExpiredSignatureError",
         "importPath": "jwt.exceptions",
         "description": "jwt.exceptions",
@@ -314,14 +322,6 @@
         "description": "apps.myuser.views",
         "isExtraImport": true,
         "detail": "apps.myuser.views",
-        "documentation": {}
-    },
-    {
-        "label": "render",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.shortcuts",
         "documentation": {}
     },
     {
@@ -519,7 +519,7 @@
         "kind": 6,
         "importPath": "apps.myuser.serializers",
         "description": "apps.myuser.serializers",
-        "peekOfCode": "class LoginSerializer(serializers.Serializer):\n    email = serializers.EmailField(required=True)\n    password = serializers.CharField(max_length=20, min_length=6)\n    # 邮箱密码都在attrs\n    def validate(self, attrs):\n        email = attrs.get(\"email\")\n        password = attrs.get(\"password\")\n        if email and password:\n            # first 方法 有就返回第一个 没有就返回None\n            user = MyUser.objects.filter(email=email).first()",
+        "peekOfCode": "class LoginSerializer(serializers.Serializer):\n    email = serializers.EmailField(required=True,error_messages={\"required\": \"Please enter your email address.\"})\n    password = serializers.CharField(max_length=20, min_length=6)\n    # 邮箱密码都在attrs\n    def validate(self, attrs):\n        email = attrs.get(\"email\")\n        password = attrs.get(\"password\")\n        if email and password:\n            # first 方法 有就返回第一个 没有就返回None\n            user = MyUser.objects.filter(email=email).first()",
         "detail": "apps.myuser.serializers",
         "documentation": {}
     },
@@ -564,7 +564,7 @@
         "kind": 6,
         "importPath": "apps.myuser.views",
         "description": "apps.myuser.views",
-        "peekOfCode": "class LoginView(APIView):\n    def post(self, request):\n        # 1. 验证数据\n        serializer = LoginSerializer(data=request.data)\n        if serializer.is_valid():\n            user = serializer.validated_data.get(\"user\")\n            user.last_login = datetime.now()\n            user.save()\n            token = generate_jwt(user)\n            return Response(",
+        "peekOfCode": "class LoginView(APIView):\n    def post(self, request):\n        # 1. 验证数据是否可用\n        serializer = LoginSerializer(data=request.data)\n        if serializer.is_valid():\n            user = serializer.validated_data.get('user')\n            user.last_login = datetime.now()\n            user.save()\n            token = generate_jwt(user)\n            return Response({'token': token, 'user': UserSerializer(user).data})",
         "detail": "apps.myuser.views",
         "documentation": {}
     },
@@ -654,7 +654,7 @@
         "kind": 5,
         "importPath": "settings.settings",
         "description": "settings.settings",
-        "peekOfCode": "WSGI_APPLICATION = \"settings.wsgi.application\"\n# Database\n# https://docs.djangoproject.com/en/5.1/ref/settings/#databases\nDATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.mysql\",\n        \"NAME\": \"zhiliaooa\",\n        \"HOST\": \"127.0.0.1\",\n        \"PORT\": \"3306\",\n        \"USER\": \"root\",",
+        "peekOfCode": "WSGI_APPLICATION = \"settings.wsgi.application\"\n# Database\n# https://docs.djangoproject.com/en/5.1/ref/settings/#databases\nDATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.mysql\",\n        \"NAME\": \"zhiliao_oa\",\n        \"HOST\": \"127.0.0.1\",\n        \"PORT\": \"3306\",\n        \"USER\": \"root\",",
         "detail": "settings.settings",
         "documentation": {}
     },
@@ -663,7 +663,7 @@
         "kind": 5,
         "importPath": "settings.settings",
         "description": "settings.settings",
-        "peekOfCode": "DATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.mysql\",\n        \"NAME\": \"zhiliaooa\",\n        \"HOST\": \"127.0.0.1\",\n        \"PORT\": \"3306\",\n        \"USER\": \"root\",\n        \"PASSWORD\": \"123456\",\n    }\n}",
+        "peekOfCode": "DATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.mysql\",\n        \"NAME\": \"zhiliao_oa\",\n        \"HOST\": \"127.0.0.1\",\n        \"PORT\": \"3306\",\n        \"USER\": \"root\",\n        \"PASSWORD\": \"123456\",\n    }\n}",
         "detail": "settings.settings",
         "documentation": {}
     },
